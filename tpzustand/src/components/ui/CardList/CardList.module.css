@@ -1,0 +1,41 @@
+.card {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.cardHeader {
+    margin-bottom: 10px;
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.cardDescription {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cardButton:hover {
+    background-color: #0056b3;
+}
